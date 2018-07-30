@@ -10,7 +10,7 @@ $secondry-color: #eece1a;
   @include easeOut;
 
   .btn-line {
-    background: #fff;
+    background: set-text-color($primary-color);
     height: 3px;
     width: 28px;
     margin: 0px 0px 3px 0px;
@@ -106,7 +106,7 @@ $secondry-color: #eece1a;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
